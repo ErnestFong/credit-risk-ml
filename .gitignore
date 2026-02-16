@@ -10,6 +10,5 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Data + model artifacts (optional: don’t upload big/binary files)
 data/
 models/
