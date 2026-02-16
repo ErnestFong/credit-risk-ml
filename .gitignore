@@ -1,0 +1,15 @@
+# Python / venv
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data + model artifacts (optional: don’t upload big/binary files)
+data/
+models/
