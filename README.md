@@ -7,6 +7,27 @@ This project builds a credit-risk classifier to predict `dlq_2yrs` (2-year delin
 Source: Kaggle – Credit Risk Benchmark Dataset  
 File used: `Credit Risk Benchmark Dataset.csv` (11 columns)
 
+## Feature / target dictionary
+
+Below are the columns used in this project (short, human-readable descriptions).
+
+| Column | What it represents (short description) |
+|---|---|
+| `dlq_2yrs` (target) | 1 if the borrower experienced **serious delinquency** (90+ days past due) within the next 2 years; 0 otherwise. |
+| `rev_util` | Revolving credit utilization: total balance on revolving credit lines (e.g., credit cards/personal lines) divided by total credit limit (excluding real-estate related lines). |
+| `age` | Borrower age in years. |
+| `late_30_59` | Number of times the borrower was 30–59 days past due (but not worse) in the last 2 years. |
+| `late_60_89` | Number of times the borrower was 60–89 days past due (but not worse) in the last 2 years. |
+| `late_90` | Number of times the borrower was 90+ days past due (severe delinquency). |
+| `debt_ratio` | Debt ratio: monthly debt payments (incl. loans/alimony/living costs) divided by monthly gross income. |
+| `monthly_inc` | Monthly income. |
+| `open_credit` | Number of open credit lines and loans (installment loans like car/mortgage + revolving lines like credit cards). |
+| `real_estate` | Number of real estate loans/lines (mortgage and real-estate related loans, incl. home equity lines). |
+| `dependents` | Number of dependents (excluding the borrower). |
+
+**Note on naming:** some column names are shortened compared to the original “Give Me Some Credit” naming (e.g., `rev_util` ≈ `RevolvingUtilizationOfUnsecuredLines`, `monthly_inc` ≈ `MonthlyIncome`).
+
+
 ## Approach
 - Baseline: Logistic Regression (with standardization)
 - Final model: HistGradientBoostingClassifier (better ROC-AUC and Average Precision on the hold-out test set)
