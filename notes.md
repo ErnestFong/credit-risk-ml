@@ -1,1 +1,1 @@
-Initial notes for credit risk project.
+#notes for starting
