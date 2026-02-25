@@ -13,7 +13,7 @@ Below are the columns used in this project.
 
 | Column | What it represents |
 |---|---|
-| `dlq_2yrs` (target) | 1 if the borrower experienced **serious delinquency** (90+ days past due) within the next 2 years; 0 otherwise. |
+| `dlq_2yrs` (target) | 1 if the borrower will experience **serious delinquency** (90+ days past due) within the next 2 years; 0 otherwise. |
 | `rev_util` | Revolving credit utilization: total balance on revolving credit lines (e.g., credit cards/personal lines) divided by total credit limit (excluding real-estate related lines). |
 | `age` | Borrower age in years. |
 | `late_30_59` | Number of times the borrower was 30–59 days past due (but not worse) in the last 2 years. |
