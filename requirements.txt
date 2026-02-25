@@ -6,4 +6,5 @@ seaborn
 joblib
 jupyter
 ipykernel
-streamlit
+streamlit>=1.23.0
+
