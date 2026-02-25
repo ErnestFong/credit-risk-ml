@@ -25,8 +25,6 @@ Below are the columns used in this project.
 | `real_estate` | Number of real estate loans/lines (mortgage and real-estate related loans, incl. home equity lines). |
 | `dependents` | Number of dependents (excluding the borrower). |
 
-**Note on naming:** some column names are shortened compared to the original “Give Me Some Credit” naming (e.g., `rev_util` ≈ `RevolvingUtilizationOfUnsecuredLines`, `monthly_inc` ≈ `MonthlyIncome`).
-
 
 ## Approach
 - Baseline: Logistic Regression (with standardization)
