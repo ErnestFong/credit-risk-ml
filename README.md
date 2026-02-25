@@ -63,7 +63,7 @@ Permutation importance indicates the model relies most on `rev_util` and delinqu
 ## Using the Streamlit app (recommended)
 
 ### Recommended workflow 
-1. Open the deployed Streamlit app link.
+1. Open the deployed Streamlit app link (https://bpramrrnp9zmubyfna8auv.streamlit.app/)
 2. In a separate tab, open `sample_inputs.csv` in this repo
 3. **Enter** the values into the app’s input fields (each field is a numeric input).
 4. Click **Predict** to get:
