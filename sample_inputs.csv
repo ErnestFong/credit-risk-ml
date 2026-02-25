@@ -1,0 +1,4 @@
+case,rev_util,age,debt_ratio,monthly_inc,open_credit,late_90,real_estate,dependents
+low,0.15,45,0.25,6500,8,0,1,1
+medium,0.55,34,0.55,4200,5,1,0,2
+high,0.95,28,0.90,2800,3,3,0,3
