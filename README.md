@@ -53,7 +53,23 @@ Permutation importance indicates the model relies most on `rev_util` and delinqu
    - `pip install -r requirements.txt`
 4. Run `data-exploration.ipynb` to reproduce training, evaluation (ROC/PR), permutation importance, correlation matrix, and calibration
 
+
 ## Repo structure (suggested)
 - `data-exploration.ipynb` — end-to-end EDA + modeling + evaluation
 - `models/` — saved model bundle (joblib) + feature list for deployment
 - `requirements.txt` — dependencies
+
+
+## Using the Streamlit app (recommended)
+
+### Recommended workflow 
+1. Open the deployed Streamlit app link.
+2. In a separate tab, open `sample_inputs.csv` in this repo
+3. **Enter** the values into the app’s input fields (each field is a numeric input).
+4. Click **Predict** to get:
+   - Predicted probability of `dlq_2yrs` (2-year delinquency)
+   - A simple risk label (Low / Medium / High)
+
+### Why use `sample_inputs.csv`?
+`sample_inputs.csv` provides ready-made example borrowers so you can test the app quickly without guessing reasonable values.
+It is for demo/testing only (not financial advice).
