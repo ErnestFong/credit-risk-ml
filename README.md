@@ -9,9 +9,9 @@ File used: `Credit Risk Benchmark Dataset.csv` (11 columns)
 
 ## Feature / target dictionary
 
-Below are the columns used in this project (short, human-readable descriptions).
+Below are the columns used in this project.
 
-| Column | What it represents (short description) |
+| Column | What it represents |
 |---|---|
 | `dlq_2yrs` (target) | 1 if the borrower experienced **serious delinquency** (90+ days past due) within the next 2 years; 0 otherwise. |
 | `rev_util` | Revolving credit utilization: total balance on revolving credit lines (e.g., credit cards/personal lines) divided by total credit limit (excluding real-estate related lines). |
